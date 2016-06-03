@@ -1,0 +1,19 @@
+{
+  "name": "saarathi",
+  "version": "1.0.0",
+  "description": "",
+  "main": "gulpfile.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ayush2016/Saarathi.git"
+  },
+  "author": "Ayush Vijay",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ayush2016/Saarathi/issues"
+  },
+  "homepage": "https://github.com/ayush2016/Saarathi#readme"
+}
