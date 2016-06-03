@@ -16,18 +16,20 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
+    .when("/", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
     // Pages
-    .when("/about", {templateUrl: "partials/about.html", controller: "PageCtrl"})
-    .when("/faq", {templateUrl: "partials/faq.html", controller: "PageCtrl"})
-    .when("/pricing", {templateUrl: "partials/pricing.html", controller: "PageCtrl"})
-    .when("/services", {templateUrl: "partials/services.html", controller: "PageCtrl"})
+    .when("/team", {templateUrl: "partials/team.html", controller: "PageCtrl"})
+    .when("/volunteer", {templateUrl: "partials/volunteer.html", controller: "PageCtrl"})
+    .when("/sponser", {templateUrl: "partials/sponser.html", controller: "PageCtrl"})
+    .when("/whatwedo", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
+    .when("/donate", {templateUrl: "partials/donate.html", controller: "PageCtrl"})
+    .when("/campaigns", {templateUrl: "partials/campaigns.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     // Blog
     .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
-    .when("/blog/post", {templateUrl: "partials/blog_item.html", controller: "BlogCtrl"})
+    .when("/bpost1", {templateUrl: "partials/bpost1.html", controller: "BlogCtrl"})
     // else 404
-    .otherwise("/404", {templateUrl: "partials/404.html", controller: "PageCtrl"});
+    .otherwise("/", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"});
 }]);
 
 /**
