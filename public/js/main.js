@@ -23,7 +23,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/sponser", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
     .when("/whatwedo", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
     .when("/donate", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
-    .when("/campaigns", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
+    .when("/campaigns", {templateUrl: "partials/campaigns.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
     .when("/login", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
     // Blog
