@@ -34,7 +34,9 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/bpost4", {templateUrl: "partials/bpost4.html", controller: "BlogCtrl"})
 
     // else 404
-    .otherwise("/", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"});
+    
+    // .otherwise("/", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"}); 
+     .otherwise('/whatwedo');
 }]);
 
 /**
