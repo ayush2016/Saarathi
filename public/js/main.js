@@ -20,7 +20,12 @@ app.config(['$routeProvider', function ($routeProvider) {
     // Pages
     .when("/team", {templateUrl: "partials/team.html", controller: "PageCtrl"})
     .when("/volunteer", {templateUrl: "partials/volunteer.html", controller: "PageCtrl"})
-    .when("/sponser", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
+    //.when("/sponser", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
+
+    .when("/sponsor", {templateUrl: "partials/sponsor.html", controller: "PageCtrl"})
+
+
+
     .when("/whatwedo", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
     .when("/donate", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
     .when("/campaigns", {templateUrl: "partials/campaigns.html", controller: "PageCtrl"})
