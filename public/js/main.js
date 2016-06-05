@@ -16,7 +16,7 @@ var app = angular.module('tutorialWebApp', [
 app.config(['$routeProvider', function ($routeProvider) {
   $routeProvider
     // Home
-    .when("/", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
+    .when("/", {templateUrl: "partials/home.html", controller: "PageCtrl"})
     // Pages
     .when("/team", {templateUrl: "partials/team.html", controller: "PageCtrl"})
     .when("/volunteer", {templateUrl: "partials/volunteer.html", controller: "PageCtrl"})
@@ -25,8 +25,6 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/sponsor", {templateUrl: "partials/sponsor.html", controller: "PageCtrl"})
 
 
-
-    .when("/whatwedo", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
     .when("/donate", {templateUrl: "partials/donate.html", controller: "PageCtrl"})
     .when("/campaigns", {templateUrl: "partials/campaigns.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
