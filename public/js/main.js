@@ -28,7 +28,7 @@ app.config(['$routeProvider', function ($routeProvider) {
     .when("/donate", {templateUrl: "partials/donate.html", controller: "PageCtrl"})
     .when("/campaigns", {templateUrl: "partials/campaigns.html", controller: "PageCtrl"})
     .when("/contact", {templateUrl: "partials/contact.html", controller: "PageCtrl"})
-    .when("/login", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
+  //  .when("/login", {templateUrl: "partials/whatwedo.html", controller: "PageCtrl"})
     // Blog
     .when("/blog", {templateUrl: "partials/blog.html", controller: "BlogCtrl"})
     .when("/bpost1", {templateUrl: "partials/bpost1.html", controller: "BlogCtrl"})
