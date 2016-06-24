@@ -10,7 +10,7 @@ AngularJs + Twitter Bootstrap + MEAN Stack
 
 Anyone is free to modify and use :)
 
-Reference:
+References:
 
 https://github.com/airpair/T0021-airpair-angularjs-tutorial.git
 
