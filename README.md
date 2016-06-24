@@ -6,7 +6,7 @@ http://www.saarathi4u.org
 
 https://saarathi.herokuapp.com
 
-AngularJs + Twitter Bootstrap + MEAN Stack 
+AngularJs + Twitter Bootstrap + MEAN Stack
 
 Anyone is free to modify and use :thumbsup:
 
